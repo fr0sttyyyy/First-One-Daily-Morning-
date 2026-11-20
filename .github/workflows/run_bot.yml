@@ -2,7 +2,7 @@ name: Run Theros Bot Daily
 
 on:
   schedule:
-    - cron: '30 13 * * *' # 6:30 PM PKT (UTC time)
+    - cron: '45 08 * * *' # 6:30 PM PKT (UTC time)
   workflow_dispatch:
 
 jobs:
